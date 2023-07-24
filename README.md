@@ -8,11 +8,10 @@ Users should be able to:
 - Search for GitHub users by their username
 - See relevant user information based on their search
 - Switch between light and dark themes
-.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](./screenshot.jpg)
 
 
 
@@ -30,12 +29,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-i used react while writing this project.It helped me a lot in applying what I learned with React. it was a project i learned a lot.
 
 ## Author
 

@@ -74,8 +74,6 @@ body.dark-mode .author-followers{
   align-items: center;
   background-color: transparent;
   margin-bottom: 30px;
-  width: 730px;
-  flex: 1;
 }
 
 .upper-container h1 {
@@ -103,7 +101,6 @@ body.dark-mode .author-followers{
 
 .input-container {
   height: 70px;
-  width: 730px;
   position: relative;
   background-color: var(--white);
   border-radius: 15px;
@@ -297,4 +294,51 @@ input::placeholder {
 
 .row div a:hover {
   text-decoration: underline;
+}
+
+
+@media (max-width : 768px) {
+.header{
+  width: 573px;
+}
+
+.input-container{
+  width: 573px;
+}
+
+.author-info{
+  flex-direction: column;
+
+}
+}
+
+@media (max-width : 478px){
+  .header{
+    width: 327px;
+  }
+  .input-container{
+    width: 327px;
+  }
+
+  input{
+    padding-left: 66px;
+  }
+  input::placeholder{
+    color: #4B6A9B;
+    font-family: Space Mono;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .content-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }  
+
+  .avatar{
+    display: none;
+  }
 }
